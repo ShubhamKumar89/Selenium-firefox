@@ -6,20 +6,11 @@
 ## Dependencies
 
 ```
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y unzip xvfb libxi6 libgconf-2-4 python3-pip
-sudo apt-get install -y default-jdk
+sudo apt update
+sudo apt install -y python3-pip
 ```
 
 ### Verify
-
-```
-$ java --version
-
-openjdk 11.0.18 2023-01-17
-OpenJDK Runtime Environment (build 11.0.18+10-post-Ubuntu-0ubuntu122.04)
-OpenJDK 64-Bit Server VM (build 11.0.18+10-post-Ubuntu-0ubuntu122.04, mixed mode, sharing)
-```
 
 ```
 $ python3 --version
@@ -30,7 +21,7 @@ Python 3.10.6
 ## Install Browser
 
 ```
-sudo apt-get install firefox=111.0+build2-0ubuntu0.22.04.1~mt1
+sudo apt-get install firefox
 ```
 
 ### Verify
@@ -54,7 +45,7 @@ sudo apt-get install firefox-geckodriver
 ```
 $ geckodriver --version
 
-geckodriver 0.30.0 (d372710b98a6 2021-09-16 10:29 +0300)
+geckodriver 0.32.2 ( 2023-03-10)
 
 The source code of this program is available from
 testing/geckodriver in https://hg.mozilla.org/mozilla-central.
